@@ -1,0 +1,9 @@
+.job-card{
+    border-style: solid ;
+    border: 40px solid;
+    border-color: gray;
+}
+.job-card:hover {
+    background-color: lightblue;
+    transform: scale(1.06);
+  }
