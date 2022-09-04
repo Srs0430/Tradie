@@ -19,4 +19,8 @@
     position: fixed;
     top: 8px;
     right: 8px;
+}.cancel-btn{
+    position: fixed;
+    top: 120px;
+    right: 8px;
 }

@@ -18,15 +18,16 @@ function Job_card(props) {
   });
 
   return (
-    <div onClick={() =>{
-      setVisable(true)
-    }} className="job-card">
+    <div className="job-card">
       <h1>
         Name: {name} Id:{tradeeID}
       </h1>
       <Status />
       <Dates date={props.date} time={props.time} />
-      {visable && <Modal name={name} id={tradeeID} open={visable} closeModal = {()=>{setVisable(false)}}/>}
+      {visable && <Modal name={name} id={tradeeID} contact= {props.contact} open={visable} date={props.date} time={props.time} closeModal = {()=>{setVisable(false)}}/>}
+      <button onClick={() =>{
+      setVisable(true)
+    }}>View</button>
     </div>
   );
 }

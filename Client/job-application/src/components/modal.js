@@ -1,5 +1,6 @@
 import React from "react";
 import Notes from "./notes";
+import Dates from "./creation-date"
 import "./modal.css"
 
 function Modal(props){
@@ -8,13 +9,15 @@ function Modal(props){
 
     return(
         <div className="modalBackground">
+            
             <div className="modalContainer">
                 <button className="close-btn" onClick={props.closeModal}> X </button>
-                <div className="title">{props.name}</div>
-                <div className="body">{props.id}</div>
+                <div className="title"><h1>Job Detail</h1></div>
+                <Dates date={props.date} time={props.time} />
+                <div className="body">{props.name} {props.id} {props.contact}</div>
                 <Notes />
                 <div className="footer">
-                <button onClick={props.closeModal}>Cancel</button>
+                <button className="cancel-btn" onClick={props.closeModal}>Cancel</button>
                 </div>
                 
             </div>
