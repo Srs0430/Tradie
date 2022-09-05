@@ -1,5 +1,5 @@
 # Setup
-Visual Studio Code is the IDE that I used to make this project.
+Visual Studio Code is the IDE that I used to make this project. MongoDB is the database that I used to store my data.
 # Fergus-tradie-application
 This is an application where the user can view the name and contact of tradies. They can leave notes on their job cards.
 # Client
