@@ -14,12 +14,7 @@ ul li {
     transition: .5s;
 }
 
-ul li :hover{
-    background: greenyellow;
-    transform: scale(1.06);
-}
-
 .notes{
-    
-
+    position: fixed;
 }
+

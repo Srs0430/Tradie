@@ -48,7 +48,7 @@ export default function App() {
       {sortByName && filteredSearch.sort((a,b) => {return(a.firstname > b.firstname? 1:-1)} ).map((user)=>{
         return(
           <div >
-            <JobCard id={user.id} firstname={user.firstname} lastname={user.lastname} date= {Date(user.date).toString().split('GMT+1200 (New Zealand Standard Time)')} />
+            <JobCard id={user.id} contact={user.contact} firstname={user.firstname} lastname={user.lastname} date= {Date(user.date).toString().split('GMT+1200 (New Zealand Standard Time)')} />
           </div>
         )
       })}

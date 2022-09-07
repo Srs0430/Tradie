@@ -17,10 +17,42 @@
 }
 .close-btn{
     position: fixed;
-    top: 8px;
+    top: 3%;
     right: 8px;
 }.cancel-btn{
     position: fixed;
-    top: 120px;
+    bottom: 0%;
     right: 8px;
+}
+.dates{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.tradie-info{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+
+}
+.contact{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+.title{
+    position: absolute;
+    top: -30px;
+    font-size: 20px;
+    margin-left: 35%;
+}
+.notes{
+    position:sticky;
+    margin-top: 20%;
+    margin-right: 50%;
+}
+.note-input{
+    position: fixed;
 }
